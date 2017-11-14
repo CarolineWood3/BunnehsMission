@@ -1,13 +1,13 @@
 
 html {	
-	background: url("./background.jpg");
+	background: url("background.jpg") no-repeat ;
 	background-size: cover;
 }
 
 
 body {
 	text-align: center;
-	color: blue;
+	color: white;
 	font-family: helvetica;
 }
 li {
