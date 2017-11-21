@@ -1,11 +1,13 @@
 
 html {	
-	background: url("background.jpg") no-repeat ;
+	background: url("road.jpg") no-repeat ;
 	background-size: cover;
 }
 
 
 body {
+	background: url("road.jpg") no-repeat ;
+	background-size: cover;
 	text-align: center;
 	color: black;
 	font-family: helvetica;
@@ -13,6 +15,10 @@ body {
 li {
 	padding: 10px;
 	margin: 0 auto;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+list-style-type: none;
 }
 p{
 	font-size: 22px;
