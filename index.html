@@ -1,60 +1,126 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-  <title>Simple Start Point</title>
+
+  <title>The BIG Adventures of Bunneh</title>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
   <link rel="stylesheet" href="./css.css">
+
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
   
 <body>
-	<div class='container'>
 
-<h1>A Bunneh on a Mission</h1>
+<div class='container'>
+
+	<h1 class="shimmer">A Bunneh on a Mission</h1>
+
 	<p><img src="./bunnehhello2.png" alt="Bunneh close up"></p>
 	<p>Welcome to the website of <em>BUNNEH</em>: a small rabbit who defies his size to travel the world</p>
-<h2>Some of my Favourite Places so far:</h2>
+
+	<h2 class="shimmer">Some of my Favourite Places so far:</h2>
 
 <div class='row'>
-  <div class='col-sm-4'>
-    <center> <img src='norway.jpg' class="img-circle"></center>
- <blockquote> <center><p>Big boats and bigger mountains.</p> </center>
-          <p><i>Norway</i></p>
-      </blockquote>
-    </div>
 
   <div class='col-sm-4'>
-         <center> <img src='Oz.jpg' class="img-circle"> </center>
-          <blockquote>
-         <center> <p>Livin' it up Down Under</p> </center>
+    	
+    	<center><a href="norwayfile.html"><img src='norway.jpg' class="img-circle norway"></a></center>
+ 		<blockquote> <center><p>Big boats and bigger mountains.</p> </center>
+        <p><i>Norway</i></p>
+      	</blockquote>
+  </div>
+
+  <div class='col-sm-4'>
+
+        <center> <a href="australia.html"><img src='Oz.jpg' class="img-circle australia"></a></center>
+        <blockquote>
+		<center> <p>Livin' it up Down Under</p> </center>
         <p><i>Sydney, Australia</i></p>
-            </blockquote>
-
-      </div>
-
-   <div class='col-sm-4'>
-          <center><img src='venice2.jpg' class="img-circle"></center>
-          <blockquote>
-          <center><p>Land of Gondolas and Gelato</p></center>
-          <p><i>Venice, Italy</i></p>
         </blockquote>
-     </div> 
+  </div>
+
+  <div class='col-sm-4'>
+
+        <center><a href="Venice.html"><img src='venice2.jpg' class="img-circle venice"></a></center>
+        <blockquote>
+        <center><p>Land of Gondolas and Gelato</p></center>
+        <p><i>Venice, Italy</i></p>
+        </blockquote>
+   </div> 
+
 </div>
 	
-	<div class='row'>
+<div class='row'>
 
- <button>
-<a href="http://scienceasadestiny.blogspot.co.uk/">Subscribe to my email updates!</a> </button>
-<script>
+ 	<button class='pad'>
+	<a href="contact.html">Subscribe to my email updates!</a> </button>
+
+	<script>
     $("button").on("click", function() {
       alert("Thanks for signing up! :)");
     });
-  </script>
+ 	</script>
 
+</div>
+
+<script>
+ 	$(".venice").on("mouseenter", function(){
+ 	$(".venice").attr("src",'grandcanal.jpg');	
+ 	});
+</script>
+
+<script>
+ 	$(".venice").on("mouseleave", function(){
+ 	$(".venice").attr("src",'venice2.jpg');	
+ 	});
+ </script>
+
+ <script>
+ 	$(".australia").on("mouseenter", function(){
+ 	$(".australia").attr("src",'roo.png');	
+ 	});
+ </script>
+
+ <script>
+ 	$(".australia").on("mouseleave", function(){
+ 	$(".australia").attr("src",'Oz.jpg');	
+ 	});
+ </script>
+
+<script>
+ 	$(".norway").on("mouseenter", function(){
+ 	$(".norway").attr("src",'troll.jpg');	
+ 	});
+ </script>
+
+ <script>
+ 	$(".norway").on("mouseleave", function(){
+ 	$(".norway").attr("src",'norway.jpg');	
+ 	});
+ </script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="./js.js"></script>
+
+<div class='row'>
+	<p></p>
 </div>
+
+<div class='row'>
+
+	  <button class='btn btn-lg btn-twitter'><a href="https://twitter.com/">Twitter</a></button>
+      <button class='btn btn-lg btn-facebook'><a href="https://www.facebook.com/">Facebook</a></button>
+      <button class='btn btn-lg btn-instagram'><a href="https://www.instagram.com/?hl=en">Intstagram</a></button>
+
+</div>
+
 </body>
 
 </html>

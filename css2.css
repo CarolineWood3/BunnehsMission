@@ -1,0 +1,85 @@
+
+html {	
+	background: no-repeat ;
+	background-size: cover;
+}
+
+
+body {
+	background: no-repeat ;
+	background-size: cover;
+	
+	text-align: center;
+	color: black;
+	font-family: helvetica;
+}
+
+h1{size: 200px;
+font-family: Constantina;
+color: black;
+background:white;
+}
+li {
+	padding: 10px;
+	margin: 0 auto;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+list-style-type: none;
+}
+p{
+	font-size: 22px;
+	font-family: calibri;
+	position: left;
+}
+img{
+	border: 7px solid white;
+}
+a {
+	color: white;
+	font-size: 15px;
+}
+button{
+	background: #00bcd4;
+}
+}
+h2{
+	font-weight: normal;
+}
+
+.go{
+	text-align: center;
+	padding-left: 20px;
+}
+
+footer{
+	position: fixed;
+	bottom: 10px;
+}
+
+.social{
+	margin-right: 10px;
+}
+
+.img-circle{
+	width:300px;
+	height:300px;
+}
+
+.btn{
+	width: 100px;
+	height: 50px;
+	font-size: 15px;
+}
+.white{
+	background: white;
+	position: center center;
+	padding: 10px 10px 10px 10px;
+}
+.col-sm-4{
+	 color: black;
+	font-weight: bold;
+}
+.back{background:white;}
+
+
