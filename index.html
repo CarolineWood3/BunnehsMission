@@ -37,6 +37,14 @@
   </ul>
 </div> 
 
+<script>
+$(document).ready(function() {
+  $('.btn-primary').on('mouseenter', '.btn-primary' function() {
+    $('.dropdown-menu').slideToggle();
+  });
+});
+</script>
+
 <div class='row'>
 
   <div class='col-sm-4'>
@@ -72,13 +80,27 @@
  	<button class='pad'>
 	<a href="contact.html">Subscribe to my email updates!</a> </button>
 
-	<script>
-    $("button").on("click", function() {
+	
+
+</div>
+
+<form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputName2">Name</label>
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Peter Rabbit">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="peter.rabbit@example.com">
+  </div>
+  <button type="submit" class="btn btn-default">Subscribe</button>
+</form>
+
+<script>
+    $(".btn-default").on("click", function() {
       alert("Thanks for signing up! :)");
     });
  	</script>
-
-</div>
 
 <script>
  	$(".venice").on("mouseenter", function(){
